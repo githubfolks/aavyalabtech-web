@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+/* Example CSS */
+html,
+body,
+#__next {
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+.max-drawer-width {
+  max-width: min(80vw, 400px);
+  width: 300px;
+}
+
+.bg-drop {
+  background-image: url("./../../public/images/drop-bg.svg");
+}
+
+.bg-custom-gradient {
+  background-image: linear-gradient(90deg, #080808 0%, #ff5d22 86%);
+  @apply py-12 relative before:absolute before:top-0 before:right-0 before:w-full before:h-full md:before:h-full before:z-20 before:bg-no-repeat before:bg-right-top after:w-[80%] hover:after:w-full hover:after:duration-200 after:duration-100 after:transition-all hover:after:transition-all after:h-full after:top-0 after:left-0 after:absolute after:rounded-md after:z-10 after:opacity-0 hover:after:opacity-100 flex flex-col items-center md:block;
+}
+
+.bg-custom-gradient:before {
+  background-image: url("./../../public/images/dots.png");
+  background-size: 40% auto;
+}
+
+@media (max-width: 768px) {
+  .bg-custom-gradient:before {
+    background-size: contain;
+    background-position: top right;
+    height: 50%;
+  }
+}
+
+.bg-work-gradient {
+  background-image: linear-gradient(90deg, #ff5d22 0%, #080808 86%);
+  @apply py-12 relative before:absolute before:top-0 before:right-0 before:w-full before:h-full md:before:h-full before:z-20 before:bg-no-repeat before:bg-right-top after:w-[80%] hover:after:w-full hover:after:duration-200 after:duration-100 after:transition-all hover:after:transition-all after:h-full after:top-0 after:left-0 after:absolute after:rounded-md after:z-10 after:opacity-0 hover:after:opacity-100 flex flex-col items-center md:block;
+}
+
+.bg-work-gradient:before {
+  background-image: url("./../../public/images/dots.png");
+  background-size: 40% auto;
+}
+
+@media (max-width: 768px) {
+  .bg-custom-gradient:before {
+    background-size: contain;
+    background-position: top right;
+    height: 50%;
+  }
+}
+.bg-wave::before {
+  background-image: url("./../../public/images/wave-bg.svg");
+}
+.bg-icon:after {
+  background-image: url("./../../public/images/icon-bg.png");
+}
+
+.bg-growth {
+  background-image: url("./../../public/images/bussiness-growth.jpg");
+}
+
+.bg-counter {
+  background-image: url("./../../public/images/counter-bg.png");
+}
+.bg-blue::before {
+  background-image: url("./../../public/images/blue-bg.png");
+}
+
+/* styles/globals.css or styles/custom.css */
+.custom-arrow {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-arrow.prev {
+  position: absolute;
+  bottom: 20px;
+  right: 70px;
+}
+
+.custom-arrow.next {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.home_banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.home_banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/images/home/home_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.2;
+  background-attachment: fixed;
+}
+
+#img {
+  -webkit-filter: drop-shadow(10px 5px 5px #949494);
+  filter: drop-shadow(5px 5px 5px #949494);
+}
+
+.bg-contact {
+  position: relative;
+}
+
+.bg-contact::before {
+  content: "";
+  background-image: url("/images/support/support-worker.png");
+  background-size: contain; 
+  background-position: top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .bg-contact::before {
+    background-size: cover; 
+  }
+}
+
+
+
+.title {
+  @apply  md:text-3xl text-2xl relative;
+}
+
