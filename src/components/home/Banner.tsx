@@ -85,7 +85,7 @@ const HomeBaner: React.FC = () => {
             Empowering Your Digital Future
           </h1>
           <p className="text-text-main md:text-xl font-semibold mb-6 text-center md:text-left leading-8">
-          At Aavya Labs, we build scalable, secure, and high-performance digital solutions tailored to your business needs. Our core expertise includes <span className="font-semibold">Enterprise Software Development</span>, <span className="font-semibold">Cloud Solutions</span>, along with <span className="font-semibold">Empower MSMEs with our Maitil.AI</span> platform. From backend systems to enterprise tools, we help you accelerate digital transformation with modern technology, expert engineering, and agile delivery.
+          At Aavya LabTech, we build scalable, secure, and high-performance digital solutions tailored to your business needs. Our core expertise includes <span className="font-semibold">Enterprise Software Development</span>, <span className="font-semibold">Cloud Solutions</span>, along with <span className="font-semibold">Empower MSMEs with our Maitil.AI</span> platform. From backend systems to enterprise tools, we help you accelerate digital transformation with modern technology, expert engineering, and agile delivery.
           </p>
         </div>
         <div

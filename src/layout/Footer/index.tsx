@@ -128,13 +128,6 @@ const Footer = () => {
                           <BiPhone />
                         </p>
                       </div>
-                    </li>
-                    <li className="flex justify-center align- items-center mb-2">
-                      <div className="basis-[10%]">
-                        <p className="lg:w-[6%] w-[10%] text-primary-main text-xl">
-                          <BiPhone />
-                        </p>
-                      </div>
                       <div className="basis-[100%] text-secondary-main text-sm text-white">
                         <Link href="tel:+919910143234">91-9910-143234</Link> (India)
                       </div>
@@ -176,13 +169,6 @@ const Footer = () => {
                 </div>
                 <div className="basis-[90%] font-medium text-secondary-main text-sm text-white">
                   {`D-5, Third Floor, Sector-10, Noida, Uttar Pradesh, 201301, India`}
-                </div>
-              </li>
-              <li className="flex justify-center align- items-center mb-2">
-                <div className="basis-[10%]">
-                  <p className="lg:w-[6%] w-[10%] text-primary-main text-xl">
-                    <BiPhone />
-                  </p>
                 </div>
               </li>
               <li className="flex justify-center align- items-center mb-2">
