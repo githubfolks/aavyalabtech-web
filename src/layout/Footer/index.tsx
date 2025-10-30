@@ -129,7 +129,7 @@ const Footer = () => {
                         </p>
                       </div>
                       <div className="basis-[100%] text-secondary-main text-sm text-white">
-                        <Link href="tel:+919910143234">91-9910-143234</Link> (India)
+                        <Link href="tel:+919910143234">91-9910-143234</Link>
                       </div>
                     </li>
                     <li className="flex justify-center align- items-center mb-4">
@@ -178,7 +178,7 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="basis-[90%] font-medium text-secondary-main text-sm text-white">
-                  <Link href="tel:+919910143234">91-9910-143234</Link> (India)
+                  <Link href="tel:+919910143234">91-9910-143234</Link>
                 </div>
               </li>
               <li className="flex justify-center align- items-center mb-2">
