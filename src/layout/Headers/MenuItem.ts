@@ -17,10 +17,16 @@ const MenuItems = [
     icon: GrCloudComputer,
     child: [
       {
+        id: "2.2",
+        name: "Salesforce",
+        icon: FaGlobe,
+        href: "/platform/salesforce",
+      },
+      {
         id: "2.3",
         name: "Microsoft",
         icon: FaGlobe,
-        href: "/platform/dot-net-development",
+        href: "#",
         child: [
           {
             id: "2.3.1",
@@ -34,7 +40,7 @@ const MenuItems = [
         id: "2.4",
         name: "React Native",
         icon: FaGlobe,
-        href: "/platform/mobile-app-development",
+        href: "#",
         child: [
           {
             id: "2.4.1",
@@ -52,6 +58,12 @@ const MenuItems = [
     href: "/services/",
     icon: FaGear,
     child: [
+      {
+        id: "3.1",
+        name: "Adobe Managed Services",
+        icon: FaGlobe,
+        href: "/services/adobe-managed-services",
+      },
       {
         id: "3.2",
         name: "AWS Cloud Computing",
@@ -108,6 +120,13 @@ const MenuItems = [
         id: "5.1",
         name: "About Us",
         href: "/about-us/",
+        icon: FaGlobe,
+      },
+  
+      {
+        id: "5.2",
+        name: "Blogs",
+        href: "/blogs/",
         icon: FaGlobe,
       },
     ],
