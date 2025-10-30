@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@mui/material";
 import { FaArrowLeft } from "react-icons/fa";
-import Logo from "../../../public/images/logo-colour.png";
+import Logo from "../../../public/images/logo-color.png";
 import Image from "next/image";
 
 const ThankyouPage = () => {
