@@ -128,9 +128,6 @@ const Footer = () => {
                           <BiPhone />
                         </p>
                       </div>
-                      <div className="basis-[100%] text-secondary-main text-sm text-white">
-                        <Link href="tel:844-392-2892">(844)392-2892</Link> (USA)
-                      </div>
                     </li>
                     <li className="flex justify-center align- items-center mb-2">
                       <div className="basis-[10%]">
@@ -186,9 +183,6 @@ const Footer = () => {
                   <p className="lg:w-[6%] w-[10%] text-primary-main text-xl">
                     <BiPhone />
                   </p>
-                </div>
-                <div className="basis-[90%] font-medium text-secondary-main text-sm text-white">
-                  <Link href="tel:844-392-2892">(844)392-2892</Link> (USA)
                 </div>
               </li>
               <li className="flex justify-center align- items-center mb-2">
